@@ -1,0 +1,90 @@
+/* Navbar container */
+.navbar {
+  background: linear-gradient(90deg, rgba(76, 175, 80, 0.8), rgba(139, 195, 74, 0.8)); /* Green linear gradient with transparency */
+  color: #fff; /* White text color */
+  padding: 10px 20px; /* Padding for the navbar */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow to navbar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-size: 24px; /* Larger font size for brand */
+  font-weight: bold; /* Bold font weight */
+  color: #fff; /* White color for brand */
+  text-decoration: none; /* Remove default underline */
+  transition: color 0.3s ease; /* Smooth transition for color */
+}
+
+.navbar-brand:hover {
+  color: #f0f0f0; /* Lighter color on hover */
+}
+
+/* Navigation links */
+.nav-link,
+.dropdown-item {
+  color: #fff !important; /* White color for navigation links and dropdown items */
+  font-size: 16px; /* Font size for links */
+  text-transform: uppercase; /* Uppercase text */
+  padding: 10px 15px; /* Padding for links */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  text-decoration: none; /* Remove default underline */
+}
+
+.nav-link:hover,
+.dropdown-item:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background color on hover */
+  border-radius: 5px; /* Rounded corners on hover */
+}
+
+/* Active link */
+.nav-link.active {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background color for active link */
+  border-radius: 5px; /* Rounded corners for active link */
+  color: #fff; /* White color for active link text */
+}
+
+/* Dropdown menu */
+.dropdown-menu {
+  background-color: rgba(76, 175, 80, 0.8); /* Green background color for dropdown menu */
+  color: #fff; /* White color for dropdown menu text */
+  border-radius: 5px; /* Rounded corners for dropdown menu */
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); /* Add shadow to dropdown menu */
+}
+
+/* Search form */
+.navbar form {
+  display: flex;
+  align-items: center;
+}
+
+/* Search input */
+.navbar form input[type="search"] {
+  border: none; /* Remove border from search input */
+  border-radius: 3px; /* Rounded corners for search input */
+  padding: 5px 10px; /* Padding for search input */
+  color: #fff; /* White color for search input text */
+  background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent background for search input */
+}
+
+/* Search button */
+.navbar form button[type="submit"] {
+  border: none; /* Remove border from search button */
+  background-color: transparent; /* Transparent background */
+  color: #fff; /* White color for search button text */
+  transition: background-color 0.3s ease; /* Smooth transition for background color */
+  margin-left: 5px; /* Add spacing between input and button */
+}
+
+/* Search button hover effect */
+.navbar form button[type="submit"]:hover {
+  background-color: rgba(255, 255, 255, 0.2); /* Semi-transparent background color on hover for search button */
+  border-radius: 3px; /* Rounded corners on hover for search button */
+}
+
+/* Black-colored dropdown items */
+.black-item {
+  color: #000 !important; /* Black color for the text */
+}

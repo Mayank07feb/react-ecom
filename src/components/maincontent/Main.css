@@ -1,0 +1,459 @@
+/* Features Section */
+.feature-box {
+  width: 100px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 0 auto;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease, border-color 0.3s ease;
+  background-color: #818e38;
+  /* Green background */
+  border: 2px solid #81C784;
+  /* Light green border */
+}
+
+.feature-box:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  background-color: #4CAF50;
+  /* Darker green background on hover */
+  border-color: #66BB6A;
+  /* Dark green border on hover */
+}
+
+.feature-icon {
+  font-size: 40px;
+  color: #fff;
+}
+
+/* Vegetables Section */
+.veg-card,
+.testimonial-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.veg-card:hover,
+.testimonial-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.veg-img,
+.testimonial-img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/* Call to Action Section */
+.cta-section {
+  background: linear-gradient(90deg, #388E3C, #4CAF50);
+  /* Green gradient background */
+}
+
+/* Testimonials Section */
+/* Testimonials Section */
+.testimonial-img {
+  height: 200px;
+  /* Adjust as needed */
+  width: 200px;
+  /* Adjust as needed */
+  object-fit: cover;
+  /* Adjust the object-fit property as needed */
+  border-radius: 10px;
+  /* Adjust the border-radius as needed */
+  margin: 0 auto;
+  /* Center horizontally */
+  margin-top: -20px;
+  /* Adjust margin-top as needed */
+  border: 5px solid white;
+}
+
+
+/* General Styles */
+.card-body {
+  text-align: center;
+}
+
+
+
+.section-title {
+  text-align: center;
+  margin: 40px 0 20px;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.section-title p {
+  font-size: 16px;
+  color: #555;
+}
+
+.shop-now {
+  text-align: center;
+  margin: 20px 0 40px;
+}
+
+.shop-now button {
+  background-color: #5cb85c;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now button:hover {
+  background-color: #4cae4c;
+}
+
+.category-label {
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  background-color: rgba(0, 128, 0, 0.8);
+  padding: 5px 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.category-image {
+  position: relative;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.category-image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.category-image:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.deal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+
+
+.deal-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  background-color: #f8f9fa;
+}
+
+.deal-background {
+  background-color: #5de264;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  /* Full viewport height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.deal-content {
+  max-width: 800px;
+  height: 500px;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  z-index: 1;
+}
+
+.best-price {
+  color: #7dbb42;
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.deal-title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.deal-description {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.item-name {
+  font-size: 28px;
+  color: #4caf50;
+  margin-bottom: 10px;
+}
+
+.item-price {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.discounted-price {
+  color: #e74c3c;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.countdown {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.countdown-item {
+  text-align: center;
+}
+
+.countdown-number {
+  font-size: 28px;
+  font-weight: bold;
+  color: #4caf50;
+}
+
+.countdown-label {
+  font-size: 16px;
+  color: #555;
+}
+
+
+.gradient-custom {
+  background: radial-gradient(50% 123.47% at 50% 50%, #00ff94 0%, #720059 100%),
+    linear-gradient(121.28deg, #669600 0%, #ff0000 100%),
+    linear-gradient(360deg, #0029ff 0%, #8fff00 100%),
+    radial-gradient(100% 164.72% at 100% 100%, #6100ff 0%, #00ff57 100%),
+    radial-gradient(100% 148.07% at 0% 0%, #fff500 0%, #51d500 100%);
+  background-blend-mode: screen, color-dodge, overlay, difference, normal;
+}
+
+.carousel-indicators {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+
+
+
+/* General Container Styling */
+.about-container {
+  padding: 40px 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+  background-color: #fff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  font-family: 'Arial', sans-serif;
+  overflow: hidden;
+}
+
+/* Header Styling */
+.about-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.about-header h1 {
+  font-size: 3em;
+  color: #4CAF50;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.about-header p {
+  font-size: 1.2em;
+  color: #666;
+  margin-top: 0;
+}
+
+/* Content Styling */
+.about-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+/* Image Styling */
+.about-image {
+  width: 100%;
+  max-width: 500px;
+  height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.about-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Text Styling */
+.about-text {
+  flex: 1;
+  max-width: 600px;
+}
+
+.about-text p {
+  font-size: 1.2em;
+  line-height: 1.8em;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.about-text p:last-child {
+  margin-bottom: 0;
+}
+
+/* Button Styling */
+.contact-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-top: 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #45a049;
+  transform: translateY(-3px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-text {
+    max-width: 100%;
+  }
+
+  .about-image {
+    max-width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .about-header h1 {
+    font-size: 2.5em;
+  }
+
+  .about-text p {
+    font-size: 1.1em;
+  }
+
+  .contact-button {
+    font-size: 0.9em;
+    padding: 8px 16px;
+  }
+}
+
+
+
+
+/* Newsletter Section */
+.newsletter-section {
+  background-color: #f8f9fa;
+  padding: 40px 0;
+}
+
+/* Newsletter Content */
+.newsletter-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+/* Newsletter Title */
+.newsletter-title {
+  font-size: 48px;
+  color: #333;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+/* Newsletter Description */
+.newsletter-description {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+/* Subscribe Form */
+.subscribe-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Form Group */
+.form-group {
+  margin-bottom: 10px;
+}
+
+/* Form Control */
+.form-control {
+  width: 300px;
+  padding: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-right: 10px;
+  font-size: 16px;
+}
+
+/* Submit Button */
+.submit {
+  background-color: rgb(98, 202, 98);
+  margin-top: 10px;
+  color: #fff;
+  border: none;
+  padding: 14px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+/* Hover Effect on Submit Button */
+.submit:hover {
+  background-color: rgb(11, 107, 11);
+}

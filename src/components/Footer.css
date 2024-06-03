@@ -1,0 +1,118 @@
+/* Main footer container */
+.footer {
+    background: #f8f9fa;
+    padding: 40px 0;
+    border-radius: 10px; /* Added border-radius for rounded corners */
+    transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for shadow and transform */
+  }
+  
+  /* Footer hover effect */
+  .footer:hover {
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2); /* Increased shadow on hover */
+    transform: translateY(-5px); /* Lift the footer slightly on hover */
+    background-color: #e9ecef; /* Change background color on hover */
+  }
+  
+  /* Footer columns */
+  .footer-col {
+    margin-bottom: 30px;
+  }
+  
+  /* Footer title */
+  .footer-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333; /* Added color */
+  }
+  
+  /* Footer links and contact list */
+  .footer-links,
+  .footer-contact {
+    list-style: none;
+    padding: 0;
+  }
+  
+  /* Footer links and contact items */
+  .footer-links li,
+  .footer-contact li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer link styling */
+  .footer-links li a,
+  .footer-contact li {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition */
+  }
+  
+  .footer-links li a:hover {
+    color: #28a745; /* Hover color for links */
+  }
+  
+  /* Social media links */
+  .footer-social a {
+    color: #333;
+    margin-right: 15px;
+    font-size: 16px;
+    transition: color 0.3s ease; /* Smooth color transition */
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add text shadow to social links */
+  }
+  
+  .footer-social a:hover {
+    color: #28a745; /* Hover color for social links */
+    transform: scale(1.1); /* Scale up the social link on hover */
+  }
+  
+  /* Larger icons for social and contact icons */
+  .footer-social a .fab,
+  .footer-contact li .fas {
+    font-size: 24px; /* Increased icon size */
+    margin-right: 10px;
+  }
+  
+  /* Footer paragraph */
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #555; /* Adjusted text color */
+  }
+  
+  /* Heart icon color */
+  .footer p i {
+    color: #28a745;
+  }
+  
+  /* Margin from top for footer-social */
+  .footer-social {
+    margin-top: 20px; /* Adjust the value as needed */
+  }
+  
+  /* Facebook icon styling */
+  .footer-social a.facebook {
+    background-color: #3b5998; /* Facebook's primary color */
+    color: #fff; /* White text color */
+    padding: 10px; /* Add padding to the Facebook icon */
+  }
+  
+  /* Fade-in effect */
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  .footer {
+    animation: fadeIn 0.8s ease; /* Apply fade-in animation */
+  }
+  
